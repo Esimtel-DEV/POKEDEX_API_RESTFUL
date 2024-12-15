@@ -12,5 +12,5 @@ app.use('/pokemon', pokemonRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.log(`PokedexApp is running on port ${PORT}`);
+    console.log(`PokedexApp_APIRESTFUL is running on port ${PORT}`);
 });
